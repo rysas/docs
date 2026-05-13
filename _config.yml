@@ -138,6 +138,7 @@ exclude:
   - CHANGELOG
   - config
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
@@ -149,6 +150,9 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - docker-compose.yml
+  - docker-compose.example.yml
+  - .gitignore
 keep_files:
   - .git
   - .svn

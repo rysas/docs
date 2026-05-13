@@ -12,12 +12,23 @@ In general, the following requirements apply for compatibility with minimal work
 * dotnet48, gdiplus, corefonts installed via winetricks
 * DirectX 8 compatibilty layer, preferably DXVK
 
-> **Note:** The suggested Lutris installation method meets these requirements, but you can certainly install without Lutris as well.
+> **Note:** The suggested Lumoria and Lutris installation methods meet these requirements, but you can certainly install without either as well.
 {: .notice--info}
+
+# Lumoria
+
+Lumoria is a Windower Community project that brings the tools for playing **Final Fantasy XI** with **Windower 4** on Linux into one place, making setup easier from start to finish.
+
+It is intended for modern Linux systems and newer hardware. If you are using an older device, we recommend following the [Lutris](#Lutris) guide below instead.
+
+Visit the [Lumoria website](https://lumoria.windower.net) for setup guidance, installation options, and project links.
+
+> **Last Updated 2026-05-13**
+{: .notice--success}
 
 # Lutris
 
-> **Preferred method, Last Updated 2024-01-20**
+> **Last Updated 2024-01-20**
 {: .notice--success}
 
 The easiest way to use Windower 4 on Linux is through Lutris. The scripts available in the Lutris database enable a fully functional launcher UI and do not require the use of the `linuxfix` addon.

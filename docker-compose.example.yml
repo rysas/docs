@@ -1,0 +1,10 @@
+services:
+  jekyll:
+    image: jekyll/jekyll:latest
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - "4000:4000"
+    environment:
+      - env=development
+    command: jekyll serve --watch --host 0.0.0.0 --port 4000
